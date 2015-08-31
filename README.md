@@ -20,8 +20,10 @@ The code should be directly importable as an existing Maven project into Eclipse
 
 If you instead want to compile and run from the command line, assuming you have the Maven command line installed:
 
-```mvn package
-java -jar target/todoapp1-1.0-SNAPSHOT.jar```
+```console
+mvn package
+java -jar target/todoapp1-1.0-SNAPSHOT.jar
+```
 
 Now simply point your browser to http://localhost:8080 to use the application.
 
