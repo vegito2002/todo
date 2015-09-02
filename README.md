@@ -27,5 +27,5 @@ java -jar target/todoapp1-1.0-SNAPSHOT.jar
 
 Now simply point your browser to http://localhost:8080 to use the application.
 
-[OOSE Tools]:http://pl.cs.jhu.edu/oose/tools.shtml
+[OOSE Tools]:http://pl.cs.jhu.edu/oose/resources/tools.shtml
 [OOSE Web Java Lecture]: http://pl.cs.jhu.edu/lectures/javaweb.shtml
