@@ -5,7 +5,7 @@ This repository contains a small Todo list web application.  It is a complete we
 
 Travis Status
 -------------
-https://travis-ci.org/jhu-oose/todo.svg
+[!](https://travis-ci.org/jhu-oose/todo.svg)
 
 
 Setup
