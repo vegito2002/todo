@@ -51,14 +51,14 @@ public class Todo {
 
     }
 
-    /*@Override
+    @Override
     public int hashCode() {
         int result = id != null ? id.hashCode() : 0;
         result = 31 * result + (title != null ? title.hashCode() : 0);
         result = 31 * result + (done ? 1 : 0);
         result = 31 * result + (createdOn != null ? createdOn.hashCode() : 0);
         return result;
-    }*/
+    }
 
     @Override
     public String toString() {
