@@ -119,7 +119,7 @@ public class TodoService {
             //Verify that we did indeed update something
             if (getChangedRows(conn) != 1) {
                 logger.error(String.format("TodoService.update: Update operation did not update rows. Incorrect id(?): %s", todoId));
-                throw new TodoServiceException(String.format("TodoService.update: Update operation did not update rows. Incorrect id(?): %s", todoId), null);
+                throw new TodoServiceException(String.format("TodoService.update: Update operation did not update rows. Incorrect id (?): %s", todoId), null);
             }
         } catch(Sql2oException ex) {
             logger.error(String.format("TodoService.update: Failed to update database for id: %s", todoId), ex);
