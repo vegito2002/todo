@@ -42,7 +42,7 @@ public class TodoController {
                 return todoService.find(request.params(":id"));
             } catch (TodoService.TodoServiceException ex) {
                 logger.error(String.format("Failed to find object with id: %s", request.params(":id")));
-                response.status(501);
+                response.status(500);
                 return Collections.EMPTY_MAP;
             }
         }, new JsonTransformer());
