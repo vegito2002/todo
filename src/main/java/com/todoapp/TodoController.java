@@ -50,7 +50,7 @@ public class TodoController {
         get(API_CONTEXT + "/todos", "application/json", (request, response)-> {
             try {
                 return todoService.findAll() ;
-            } catch (TodoService.TodoServiceException ex) {
+            } catch  (TodoService.TodoServiceException ex) {
                 logger.error("Failed to fetch the list of todos");
                 response.status(500);
                 return Collections.EMPTY_MAP;
